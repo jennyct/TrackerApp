@@ -1,0 +1,195 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>SCES Parts Tracker</h1>
+        <p>Keeping track of your inventory one item at a time.</p>
+      </div>
+    </div>
+
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Main Menu</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Local Search">
+              <input type="text" class="form-control" placeholder="Global Search">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Add Item +</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <h1>"i.e. table --> round table -->subpart"</h1>
+
+
+    <div class="MainItemTable">
+      <h1 align="center">Main Items</h1>
+        <table class="table table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div contenteditable>Table</div></td>
+                <td width = "20%"><div contenteditable>10</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Types</button></td>
+                <td width="6%"><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Chair</div></td>
+                <td><div contenteditable>30</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Types</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Some Item</div></td>
+                <td><div contenteditable>40</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Types</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="MainItemTypeTable">
+      <h1 align="center">Item Types</h1>
+        <table class="table table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>Type Name</th>
+                <th>Quantity</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div contenteditable>Round Table</div></td>
+                <td width = "20%"><div contenteditable>100</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td width="6%"><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Rectable Table</div></td>
+                <td><div contenteditable>50</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Some Item</div></td>
+                <td><div contenteditable>40</div></td>
+                <td width="6%"><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="SubpartsTable">
+      <h1 align="center">Item Subparts</h1>
+        <table class="table table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>Subpart Name</th>
+                <th>Quantity</th>
+                <th>Date</th>
+                <th>Buy Count</th>
+                <th>Company</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div contenteditable>Leg</div></td>
+                <td width="10%"><div contenteditable>100</div></td>
+                <td width="10%"><div contenteditable>100</div></td>
+                <td width="10%"><div contenteditable>100</div></td>
+                <td width="20%"><div contenteditable>100</div></td>
+                <td width="10%"><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td width="6%"><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Seat</div></td>
+                <td><div contenteditable>50</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+              <tr>
+                <td><div contenteditable>Some Item</div></td>
+                <td><div contenteditable>40</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><div contenteditable>100</div></td>
+                <td><button type="submit" class="btn btn-info">Subparts</button></td>
+                <td><input type="button" class="btn btn-danger" value="Delete" click="SomeDeleteRowFunction()"></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+  </body>
+</html>

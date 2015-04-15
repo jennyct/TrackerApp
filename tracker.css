@@ -1,0 +1,72 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+.jumbotron {
+  background-image:url('http://www.healthtech.com/uploadedImages/UCI%20STUDENT-CTR.jpg');
+  height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.MainItemTable h1 {
+  font-size: 30px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.MainItemTable {
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Shift', Helvetica;
+}
+
+.MainItemTypeTable h1 {
+  font-size: 30px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.MainItemTypeTable {
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Shift', Helvetica;
+}
+
+.SubpartsTable h1 {
+  font-size: 30px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.SubpartsTable {
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Shift', Helvetica;
+}
